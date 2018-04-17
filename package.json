@@ -4,7 +4,7 @@
   "description": "Files for my Building a Website with Node & ExpressJS course on Lynda.com",
   "main": "app/app.js",
   "scripts": {
-    "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
+    "start": "node app/app.js"
   },
   "author": "Ray Villalobos",
   "license": "MIT",
@@ -14,5 +14,14 @@
     "express": "^4.14.0",
     "reload": "^1.0.0",
     "socket.io": "^1.4.8"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developerworld-me/expressjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Developerworld-me/expressjs/issues"
+  },
+  "homepage": "https://github.com/Developerworld-me/expressjs#readme"
 }
